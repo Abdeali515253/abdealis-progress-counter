@@ -21,7 +21,8 @@ body {
     position: relative;
     margin: auto; 
     width: 70%;
-    height: 0.2%;
+    height: .4vw;
+    background-color: rgb(194, 223, 223);
     border-color: blueviolet;
     border-width: 0.1%;
     border-style: solid;
