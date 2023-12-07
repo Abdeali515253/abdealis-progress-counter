@@ -1,0 +1,37 @@
+<html>
+    <link rel="stylesheet" type="text/css" href=".\thecss.css" /> 
+    <body>
+        <div class="allinfo">
+            <div class="jadeed" id = "jadeed">
+                haha
+            </div>
+            <div class="bar">
+                <div class="finished" id="finished"></div>
+                <div class="ball" id="ball"></div>
+            </div>
+        </div>
+
+        <script>
+            let totalPages = 600
+            let pagesLeft = 53
+
+            
+
+            let percentage = (totalPages-pagesLeft) / totalPages
+
+            let finished = document.getElementById("finished")
+            finished.style.width = `${percentage*100}%`
+
+            let ball = document.getElementById("ball")
+            ball.style.left = `${percentage*100 - 2}%`
+
+            let jadeed = document.getElementById("jadeed")
+            jadeed.innerHTML = "Pages Left: " + pagesLeft
+                
+
+        </script>
+    
+
+    </body>
+ 
+</html>

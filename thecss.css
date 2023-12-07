@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(194, 223, 223);
+    display: flex;
+}
+
+.allinfo {
+    flex: 1;
+    align-self: center;
+    margin-bottom: 20%;
+}
+
+.jadeed {
+    font-size: 4em;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.bar {
+    position: relative;
+    margin: auto; 
+    width: 70%;
+    height: 0.2%;
+    border-color: blueviolet;
+    border-width: 0.1%;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.finished {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;;
+}
+
+.ball {
+    position: absolute;
+    height: 2vw;
+    width: 2vw;
+    left: 48%;
+    top:50%;
+    bottom:50%;
+    margin: auto;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
